@@ -1,0 +1,105 @@
+@charset "utf-8";
+@import "https://unpkg.com/ress/dist/ress.min.css";
+
+/****************************
+* COMMON
+*****************************/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(255, 204, 0, 0.40);
+    color: #212121;
+}
+
+main {
+    width: 1000px;
+    margin: 80px auto;
+    padding: 80px;
+    background: rgba(255, 204, 0, 0.40);
+}
+
+
+/********************
+* 見出し
+*********************/
+h2 {
+    font-size: 24px;
+    padding: 16px 0;
+    border-top: 2px solid #212121;
+    border-bottom: 2px solid #212121;
+    text-align: center;
+    margin-bottom: 40px;
+    background: #fff;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 4px 0 4px 16px;
+    border-left: 8px solid #212121;
+    margin-bottom: 20px;
+    background-color: #FFE479;
+}
+/********************
+* コンテンツ
+*********************/
+.contents-area {
+    display: flex;
+    gap: 40px;
+}
+
+.left-area,
+.rignt-area {
+    width: 400px;
+}
+
+.contents {
+    padding-left: 24px;
+    margin-bottom: 20px;
+}
+
+.contents img.a  {
+    width: 350px;
+    height: 200px;
+}
+
+.contents img.b {
+    width: 350px;
+}
+
+/****************************
+* section#profile
+*****************************/
+section#profile,
+section#favorite {
+    background-color: #FFBF00;
+}
+
+#prpfile {
+    margin-bottom: 80px;
+}
+
+#profile img {
+  display: block;
+  margin: auto;
+  width: 350px;
+}
+
+.my-name {
+  font-size: 24px;
+  text-align: center;
+  margin: 40px 0 ;
+}
+.my-name rt {
+    margin-bottom: 4px;
+}
+
+.my-intro {
+    width: 500px;
+    margin: 40px 320px;
+  
+}
+
+
+
